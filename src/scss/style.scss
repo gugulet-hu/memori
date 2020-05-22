@@ -1,0 +1,77 @@
+//* Defining variables
+
+$background-color: #cfd8dc;
+$primary-color: black;
+$secondary-color: #ff3d00;
+$tertiary-color: lightgrey;
+
+//* Defining mixins
+@mixin center-xy {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+@mixin margin-padding-remove {
+     margin: 0px;
+     padding: 0px;
+}
+
+@mixin no-underline-link {
+     a {
+          &:hover {
+               text-decoration: none;
+          }
+     }
+}
+
+//* All components
+
+body {
+     font-family: "Noto Serif", serif;
+}
+
+header {
+     background-color: white;
+     color: $primary-color;
+     p {
+          color: $tertiary-color;
+          font-size: smaller;
+     }
+}
+
+//* Instructions component
+
+#instructions {
+     @include no-underline-link;
+     background-color: $background-color;
+     .xlg {
+          margin-top: 1rem;
+          font-size: xx-large;
+          color: white;
+     }
+}
+
+//* Deck component
+
+#deck {
+     img {
+          width: 100%;
+          &.show {
+               display: flex;
+          }
+     }
+     .timer {
+          font-weight: bold;
+          font-size: xx-large;
+     }
+}
+
+//* Footer
+
+footer {
+     @include center-xy;
+     a {
+          color: $primary-color;
+     }
+}
