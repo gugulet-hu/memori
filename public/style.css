@@ -1,0 +1,46 @@
+body {
+  font-family: "Noto Serif", serif;
+}
+
+header {
+  background-color: white;
+  color: black;
+}
+header p {
+  color: lightgrey;
+  font-size: smaller;
+}
+
+#instructions {
+  background-color: #cfd8dc;
+}
+#instructions a:hover {
+  text-decoration: none;
+}
+#instructions .xlg {
+  margin-top: 1rem;
+  font-size: xx-large;
+  color: white;
+}
+
+#deck img {
+  width: 100%;
+}
+#deck img.show {
+  display: flex;
+}
+#deck .timer {
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer a {
+  color: black;
+}
+
+/*# sourceMappingURL=style.css.map */
