@@ -24,13 +24,11 @@ class App extends React.Component {
                               path="/"
                               component={Instructions}
                          />
-                         <Route
-                          exact={true}
-                          path="/deck"
-                          component={Deck}
-                        />
+                         <Route exact={true} path="/deck" component={Deck} />
                     </div>
-                    <footer class="mb-3"><a href="https://gugulet.hu">gugulet.hu</a></footer>
+                    {/* <footer class="mb-3">
+                         <a href="https://gugulet.hu">gugulet.hu</a>
+                    </footer> */}
                </BrowserRouter>
           );
      }

@@ -1,11 +1,20 @@
 # Memori
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)](https://opensource.org/licenses/MIT)
+
 ![memori icon](https://gugulet.hu/site/wp-content/uploads/memori-game-100x100-1.png)<br>
 A little memory card game I built using React and NodeJS.
 
+## Preinstall
+
+Download all the files. Navigate to the project directory in the terminal and run<br>
+_npm install_
+
+To install all the necessary node modules.
+
 ## How to start the game
 
-Download all the files. Navigate to the project directory in the terminal and run the command _npm start_
+Navigate to the project directory in the terminal and run the command _npm start_
 
 This runs the app in development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
