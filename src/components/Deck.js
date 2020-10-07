@@ -31,7 +31,7 @@ class Deck extends React.Component {
                     img9,
                     img10,
                ],
-               flipped: "", //* Keep track of which card was flipped last.
+               flipped: "", //* Keep track of which card was flipped.
                previousFlip: "", //* Keep track of which card was flipped last.
                paired: 0, //* Keep track of how many pairs have been solved.
           };

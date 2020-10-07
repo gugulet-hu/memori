@@ -7,7 +7,7 @@ function Header() {
                <div class="col-md-12 mt-5">
                     <img src={Logo} alt="Memori Logo" />
                     <h1>memori</h1>
-                    <p>A game by &lt;g /></p>
+                    <p>A game by g*</p>
                </div>
           </div>
      );
