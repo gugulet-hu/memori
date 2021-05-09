@@ -1,14 +1,8 @@
 {
      "name": "memori",
-<<<<<<< HEAD
      "homepage": ".",
      "version": "0.1.0",
      "private": true,
-=======
-     "version": "0.1.0",
-     "private": true,
-     "homepage": "https://dev.gugulet.hu/memori/",
->>>>>>> 8a64c25ae2a704af1ab4f7bc8f7358fd2c816fe4
      "dependencies": {
           "@testing-library/jest-dom": "^4.2.4",
           "@testing-library/react": "^9.5.0",
@@ -18,14 +12,8 @@
           "react-bootstrap": "^1.0.1",
           "react-dom": "^16.13.1",
           "react-router-dom": "^5.2.0",
-<<<<<<< HEAD
           "react-scripts": "^4.0.3",
           "react.timer": "^2.1.0"
-=======
-          "react-scripts": "3.4.1",
-          "react.timer": "^2.1.0",
-          "yarn": "^1.22.10"
->>>>>>> 8a64c25ae2a704af1ab4f7bc8f7358fd2c816fe4
      },
      "scripts": {
           "start": "react-scripts start",
@@ -49,10 +37,6 @@
           ]
      },
      "devDependencies": {
-<<<<<<< HEAD
           "jsdoc": "^0.0.0"
-=======
-          "jsdoc": "^3.6.5"
->>>>>>> 8a64c25ae2a704af1ab4f7bc8f7358fd2c816fe4
      }
 }
