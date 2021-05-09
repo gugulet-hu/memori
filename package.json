@@ -12,7 +12,7 @@
           "react-bootstrap": "^1.0.1",
           "react-dom": "^16.13.1",
           "react-router-dom": "^5.2.0",
-          "react-scripts": "3.4.1",
+          "react-scripts": "^4.0.3",
           "react.timer": "^2.1.0"
      },
      "scripts": {
@@ -37,6 +37,6 @@
           ]
      },
      "devDependencies": {
-          "jsdoc": "^3.6.5"
+          "jsdoc": "^0.0.0"
      }
 }
